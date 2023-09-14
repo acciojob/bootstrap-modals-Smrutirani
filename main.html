@@ -4,13 +4,39 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-
+	<div class="container">
+        <button type="button" class="btn btn-primary m-0" id="open-modal" data-bs-target="newton-modal" data-bs-toggle="modal">Lunch network
+            modal</button>
+    
+        <div class="modal fade" id="newton-modal" tabindex="-1">
+            <div class="dialog">
+                <div class="content">
+                    <div class="header">
+                        <h3 class="">New Modal</h3>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="body">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur maxime officiis
+                            deserunt? Voluptatibus asperiores distinctio, quasi veritatis, consequatur tempore
+                            consequuntur esse dolorem eveniet ipsam, totam earum ab minima est sed blanditiis quis
+                            corrupti inventore quia eos odit atque quae quibusdam? Minima totam dolor libero ab
+                            voluptatum atque quia magnam expedita?</p>
+                    </div>
+                    <div class="footer">
+                        <button type="button" class="text-white bg-lightgray" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
